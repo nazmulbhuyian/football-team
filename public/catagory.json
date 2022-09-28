@@ -1,0 +1,50 @@
+[
+    {
+        "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+        "name": "Dybala",
+        "age": 22,
+        "img": "./image/dybala.webp",
+        "time": 25,
+        "title": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+      },
+      {
+        "id": "13cbc7ed-a61b-4883-9d42-82d7d8642b86",
+        "name": "Maradona",
+        "age": 46,
+        "img": "./image/maradona.jpg",
+        "time": 28,
+        "title": " the 1960s with the release of Letraset sheets containing Lorem"
+      },
+      {
+        "id": "307f166f-1d04-4573-bc37-2f461ea9d4f7",
+        "name": "Mbappe",
+        "age": 20,
+        "img": "./image/mbappe.jpeg",
+        "time": 35,
+        "title": " including versions of Lorem Ipsum."
+      },
+      {
+        "id": "4bf9798f-63bc-4a83-b0c6-6a3b816fe922",
+        "name": "Messi",
+        "age": 24,
+        "img": "./image/messi.jpg",
+        "time": 32,
+        "title": "years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia."
+      },
+      {
+        "id": "9496d72b-04ec-41f8-9bc3-0a7c9697be8e",
+        "name": "Pogba",
+        "age": 28,
+        "img": "./image/pogba (2).jpg",
+        "time": 37,
+        "title": "cites of the word in classical literature, discovered the undoubtable source."
+      },
+      {
+        "id": "6e5593d3-557b-43cf-8dab-a5140faedfb0",
+        "name": "Ramos",
+        "age": 32,
+        "img": "./image/ramos.jpg",
+        "time": 42,
+        "title": "very popular during the Renaissance."
+      }
+]

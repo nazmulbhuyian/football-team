@@ -1,0 +1,27 @@
+.meserment{
+    display: flex;
+    background: lightgrey;
+    margin-top: 20px;
+}
+.height{
+    margin-right: 20px;;
+}
+.time{
+    display: flex;
+    background: lightgrey;
+}
+.time a{
+    margin-right: 50px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
+}
+.image-section{
+    display: flex;
+}
+.image{
+    width: 100px;
+    margin-right: 20px;
+}
