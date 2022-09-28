@@ -1,50 +1,50 @@
 [
     {
         "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
-        "name": "Dybala",
+        "name": "Paulo Dybala",
         "age": 22,
         "img": "./image/dybala.webp",
         "time": 25,
-        "title": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        "title": "Paulo Exequiel Dybala (born 15 November 1993) is an Argentine professional footballer who plays as a forward for Serie A club Roma and the Argentina national team."
       },
       {
         "id": "13cbc7ed-a61b-4883-9d42-82d7d8642b86",
-        "name": "Maradona",
+        "name": "Diego Armando Maradona",
         "age": 46,
         "img": "./image/maradona.jpg",
         "time": 28,
-        "title": " the 1960s with the release of Letraset sheets containing Lorem"
+        "title": " Diego Armando Maradona (Spanish: [ˈdjeɣo maɾaˈðona]; 30 October 1960 – 25 November 2020) was an Argentine professional football player and manager. Widely regarded as one of the greatest players in the history of the sport, he was one of the two joint winners of the FIFA Player of the 20th Century award."
       },
       {
         "id": "307f166f-1d04-4573-bc37-2f461ea9d4f7",
-        "name": "Mbappe",
+        "name": "Kylian Mbappe",
         "age": 20,
         "img": "./image/mbappe.jpeg",
         "time": 35,
-        "title": " including versions of Lorem Ipsum."
+        "title": " Kylian Mbappé Lottin is a French professional footballer who plays as a forward for Ligue 1 club Paris Saint-Germain and the France national team. Considered one of the best players in the world, Mbappé is renowned for his dribbling abilities, exceptional speed, and finishing."
       },
       {
         "id": "4bf9798f-63bc-4a83-b0c6-6a3b816fe922",
-        "name": "Messi",
+        "name": "Lionel Andrés Messi",
         "age": 24,
         "img": "./image/messi.jpg",
         "time": 32,
-        "title": "years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia."
+        "title": "Lionel Andrés Messi, also known as Leo Messi, is an Argentine professional footballer who plays as a forward for Ligue 1 club Paris Saint-Germain and captains the Argentina national team."
       },
       {
         "id": "9496d72b-04ec-41f8-9bc3-0a7c9697be8e",
-        "name": "Pogba",
+        "name": "Paul Labile Pogba",
         "age": 28,
         "img": "./image/pogba (2).jpg",
         "time": 37,
-        "title": "cites of the word in classical literature, discovered the undoubtable source."
+        "title": "Paul Labile Pogba is a French professional footballer who plays for Serie A club Juventus and the France national team. He operates primarily as a central midfielder, but can be deployed as a left winger, attacking midfielder, defensive midfielder and deep-lying playmaker."
       },
       {
         "id": "6e5593d3-557b-43cf-8dab-a5140faedfb0",
-        "name": "Ramos",
+        "name": "Sergio Ramos García",
         "age": 32,
         "img": "./image/ramos.jpg",
         "time": 42,
-        "title": "very popular during the Renaissance."
+        "title": "Sergio Ramos García is a Spanish professional footballer who plays as a centre-back for Ligue 1 club Paris Saint-Germain and the Spain national team."
       }
 ]

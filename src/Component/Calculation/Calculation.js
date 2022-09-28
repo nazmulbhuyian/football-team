@@ -3,7 +3,11 @@ import './Calculation.css'
 import image from './player-3.png'
 
 const Calculation = (props) => {
-    // console.log(props.time[0]);
+    const {time} = props;
+    let newminite = 0;
+    for(const minite of time){
+        newminite += minite.time;
+    }
     return (
         <div>
                 <div className='image-section'>
@@ -38,7 +42,7 @@ const Calculation = (props) => {
             </div>
 
             <h1>Exercise Details</h1>
-            <h3>Exercise time: </h3>
+            <h3>Exercise time: {newminite}</h3>
             <h3>Break time: 0</h3>
 
         </div>

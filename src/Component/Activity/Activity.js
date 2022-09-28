@@ -11,10 +11,12 @@ const Activity = () => {
         .then(res => res.json())
         .then(data => setPlayers(data))
     },[])
+
     const addToTime = (player) =>{
         const newTime = [...time, player];
         setTime(newTime);
     }
+
     return (
         <div className='main-section'>
             <div className="players">
