@@ -19,16 +19,16 @@ const Calculation = (props) => {
                 </div>
             <div className='meserment'>
                 <div className='height'>
-                    <h1>65 KG</h1>
-                    <h4>Weight</h4>
+                    <h4>65 KG</h4>
+                    <p>Weight</p>
                 </div>
                 <div className='height'>
-                    <h1>605 inc</h1>
-                    <h4>Height</h4>
+                    <h4>605 inc</h4>
+                    <p>Height</p>
                 </div>
                 <div className='height'>
-                    <h1>25 yrs</h1>
-                    <h4>Years</h4>
+                    <h4>25 yrs</h4>
+                    <p>Years</p>
                 </div>
             </div>
 
@@ -42,7 +42,7 @@ const Calculation = (props) => {
             </div>
 
             <h1>Exercise Details</h1>
-            <h3>Exercise time: {newminite}</h3>
+            <h3 className='exercise-time'>Exercise time: {newminite}</h3>
             <h3>Break time: 0</h3>
 
         </div>

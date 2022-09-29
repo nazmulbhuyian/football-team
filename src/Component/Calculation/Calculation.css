@@ -1,14 +1,19 @@
 .meserment{
+    margin: 40px 30px;
     display: flex;
-    background: lightgrey;
-    margin-top: 20px;
+    
+    background-color: rgba(105, 105, 105, 0.162);
+    border-radius: 30px;
 }
 .height{
-    margin-right: 20px;;
+    margin-right: 20px;
+    margin-left: 30px;
 }
 .time{
     display: flex;
-    background: lightgrey;
+    background-color: rgba(105, 105, 105, 0.162);
+    margin: 30px;
+    border-radius: 20px;
 }
 .time a{
     margin-right: 50px;
@@ -24,4 +29,10 @@
 .image{
     width: 100px;
     margin-right: 20px;
+}
+.exercise-time{
+    background-color: rgba(105, 105, 105, 0.162);
+    margin: 40px;
+    padding: 15px;
+    border-radius: 30px;
 }

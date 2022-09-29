@@ -3,8 +3,9 @@ import './Header.css'
 
 const Header = () => {
     return (
-        <div>
-            <h1 className='header'>My Football Team</h1>
+        <div className='header'>
+            <h1>My Football Team</h1>
+            <h3>Select Today Best Player</h3>
         </div>
     );
 };
