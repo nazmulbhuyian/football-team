@@ -42,8 +42,9 @@ const Calculation = (props) => {
             </div>
 
             <h1>Exercise Details</h1>
-            <h3 className='exercise-time'>Exercise time: {newminite}</h3>
+            <h3 className='exercise-time'>Exercise time: {newminite} M</h3>
             <h3 className='exercise-time'>Break time: 0</h3>
+            <button className='complete'>Activity Complete</button>
 
         </div>
     );

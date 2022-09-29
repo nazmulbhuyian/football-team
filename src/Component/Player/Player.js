@@ -1,6 +1,9 @@
 import React from 'react';
 import './Player.css'
 
+
+
+
 const Player = (props) => {
     // console.log(props)
     const {name, img, age, time, title} = props.player;
