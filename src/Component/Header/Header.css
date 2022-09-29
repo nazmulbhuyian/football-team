@@ -1,12 +1,29 @@
 .header h1{
     color: blue;
-    margin-left: 50%;
+    margin-left: 40%;
     margin-top: 0;
 }
 .header h3{
     color: rgba(105, 105, 105, 0.786);
-    margin-left: 50%;
+    margin-left: 40%;
     font-size: 20px;
     margin-bottom: 30px;
 }
-
+@media only screen and (max-width: 992px) {
+    .header h1{
+        margin-left: 25%;
+    }
+    .header h3{
+        margin-left: 25%;
+    }
+    
+}
+@media only screen and (max-width: 600px) {
+    .header h1{
+        margin-left: 60px;
+    }
+    .header h3{
+        margin-left: 60px;
+    }
+    
+}

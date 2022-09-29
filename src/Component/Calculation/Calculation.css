@@ -51,3 +51,41 @@
     margin-left: 100px;
     color: white;
 }
+
+
+
+@media only screen and (max-width: 992px) {
+    .meserment{
+        display: flex;
+        background-color: rgba(105, 105, 105, 0.162);
+        border-radius: 30px;
+    }
+    
+}
+@media only screen and (max-width: 600px) {
+    .meserment{
+        display: flex;
+        background-color: rgba(105, 105, 105, 0.162);
+        border-radius: 30px;
+        margin: 0;
+    }
+    .time{
+        display: flex;
+        background-color: rgba(105, 105, 105, 0.162);
+        border-radius: 20px;
+        margin: 0;
+    }
+    .image{
+        width: 100px;
+        margin-right: 0;
+    }
+    .exercise-time{
+        background-color: rgba(105, 105, 105, 0.162);
+        margin: 10px 0;
+        padding: 15px;
+        border-radius: 30px;
+    }
+    .time a{
+        margin-right: 10px;
+    }
+}

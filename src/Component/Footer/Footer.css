@@ -2,3 +2,8 @@
     border: 3px solid gray;
     margin: 30px;
 }
+@media only screen and (max-width: 600px) {
+    .footer{
+        margin: 0;
+    }
+}

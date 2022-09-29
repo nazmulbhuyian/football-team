@@ -11,3 +11,33 @@
 .calculation{
     background: white;
 }
+
+@media only screen and (max-width: 992px) {
+    .main-section{
+        display: block
+    }
+
+    .players{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);      
+    }
+    .calculation{
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .main-section{
+        display: block
+    }
+
+    .players{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 50px;
+    }
+    .calculation{
+        display: block;
+    }
+}
+
