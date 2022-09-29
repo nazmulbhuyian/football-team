@@ -1,7 +1,12 @@
+
+.cart{
+    position: sticky;
+    top: 0;
+    padding: 30px 10px;
+}
 .meserment{
-    margin: 40px 30px;
+    margin: 40px;
     display: flex;
-    
     background-color: rgba(105, 105, 105, 0.162);
     border-radius: 30px;
 }

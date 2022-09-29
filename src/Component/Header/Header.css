@@ -1,7 +1,10 @@
 .header h1{
     color: blue;
     margin-left: 90px;
+    margin-top: 0;
 }
 .header h3{
-    color: gainsboro;
+    color: rgba(105, 105, 105, 0.786);
+    margin-left: 90px;
+    font-size: 20px;
 }

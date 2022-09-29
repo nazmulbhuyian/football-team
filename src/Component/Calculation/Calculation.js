@@ -9,7 +9,7 @@ const Calculation = (props) => {
         newminite += minite.time;
     }
     return (
-        <div>
+        <div className='cart'>
                 <div className='image-section'>
                 <img className='image' src={image} alt=""/>
                 <div>
@@ -43,7 +43,7 @@ const Calculation = (props) => {
 
             <h1>Exercise Details</h1>
             <h3 className='exercise-time'>Exercise time: {newminite}</h3>
-            <h3>Break time: 0</h3>
+            <h3 className='exercise-time'>Break time: 0</h3>
 
         </div>
     );
