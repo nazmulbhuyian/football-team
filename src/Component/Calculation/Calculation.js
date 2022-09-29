@@ -15,6 +15,7 @@ const Calculation = (props) => {
         toast.success("Thank you for visite my website",
         {position:"top-center"});
     }
+
     return (
         <div className='cart'>
                 <div className='image-section'>
@@ -50,7 +51,7 @@ const Calculation = (props) => {
 
             <h1>Exercise Details</h1>
             <h3 className='exercise-time'>Exercise time: {newminite} M</h3>
-            <h3 className='exercise-time'>Break time: 0</h3>
+            <h3 className='exercise-time'>Break time: </h3>
             <button onClick={diftToast} className='complete'>Activity Complete <ToastContainer /></button>
 
         </div>

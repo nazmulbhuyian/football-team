@@ -17,8 +17,8 @@ const Player = (props) => {
             <p className='age-time'>For Age: {age} year</p>
             <p className='age-time'>Time required: {time} Minite</p>
             </div>
-            <button className='btn-cart'>
-                <p onClick={() => addToTime(props.player)} className='btn-text'>Add To Cart</p>
+            <button onClick={() => addToTime(props.player)} className='btn-cart'>
+                <p className='btn-text'>Add To Cart</p>
                 <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon>
             </button>
         </div>
