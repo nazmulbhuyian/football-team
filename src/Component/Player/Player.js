@@ -1,7 +1,7 @@
 import React from 'react';
 import './Player.css'
-
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
 
 
 const Player = (props) => {
@@ -19,6 +19,7 @@ const Player = (props) => {
             </div>
             <button className='btn-cart'>
                 <p onClick={() => addToTime(props.player)} className='btn-text'>Add To Cart</p>
+                <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon>
             </button>
         </div>
     );

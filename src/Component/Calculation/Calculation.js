@@ -1,12 +1,19 @@
 import React from 'react';
 import './Calculation.css'
 import image from './player-3.png'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Calculation = (props) => {
     const {time} = props;
     let newminite = 0;
     for(const minite of time){
         newminite += minite.time;
+    }
+
+    const diftToast = () => {
+        toast.success("Thank you for visite my website",
+        {position:"top-center"});
     }
     return (
         <div className='cart'>
@@ -23,7 +30,7 @@ const Calculation = (props) => {
                     <p>Weight</p>
                 </div>
                 <div className='height'>
-                    <h4>605 inc</h4>
+                    <h4>6.5 inc</h4>
                     <p>Height</p>
                 </div>
                 <div className='height'>
@@ -44,7 +51,7 @@ const Calculation = (props) => {
             <h1>Exercise Details</h1>
             <h3 className='exercise-time'>Exercise time: {newminite} M</h3>
             <h3 className='exercise-time'>Break time: 0</h3>
-            <button className='complete'>Activity Complete</button>
+            <button onClick={diftToast} className='complete'>Activity Complete <ToastContainer /></button>
 
         </div>
     );

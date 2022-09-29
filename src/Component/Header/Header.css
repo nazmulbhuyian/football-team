@@ -1,10 +1,12 @@
 .header h1{
     color: blue;
-    margin-left: 90px;
+    margin-left: 50%;
     margin-top: 0;
 }
 .header h3{
     color: rgba(105, 105, 105, 0.786);
-    margin-left: 90px;
+    margin-left: 50%;
     font-size: 20px;
+    margin-bottom: 30px;
 }
+
