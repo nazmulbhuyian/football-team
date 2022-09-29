@@ -47,11 +47,11 @@ const Calculation = (props) => {
 
             <h1>Add A Break</h1>
             <div className='time'>
-                <a onClick={() => breakTimeAdd(10)} href="/a">10 M</a>
-                <a onClick={() => breakTimeAdd(20)} href="/a">20 M</a>
-                <a onClick={() => breakTimeAdd(30)} href="/a">30 M</a>
-                <a onClick={() => breakTimeAdd(40)} href="/a">40 M</a>
-                <a onClick={() => breakTimeAdd(50)} href="/a">50 M</a>
+                <p onClick={() => breakTimeAdd(10)} href="/a">10 M</p>
+                <p onClick={() => breakTimeAdd(20)} href="/a">20 M</p>
+                <p onClick={() => breakTimeAdd(30)} href="/a">30 M</p>
+                <p onClick={() => breakTimeAdd(40)} href="/a">40 M</p>
+                <p onClick={() => breakTimeAdd(50)} href="/a">50 M</p>
             </div>
 
             <h1>Exercise Details</h1>
