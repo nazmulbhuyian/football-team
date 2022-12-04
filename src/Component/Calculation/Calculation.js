@@ -3,33 +3,38 @@ import './Calculation.css'
 import image from './player-3.png'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { motion } from 'framer-motion';
 
 const Calculation = (props) => {
+
+    const [isHover, setIsHover] = useState(false);
+
+
     const [breakTime, setBreakTime] = useState(0);
-    const {time} = props;
+    const { time } = props;
     let newminite = 0;
-    for(const minite of time){
+    for (const minite of time) {
         newminite += minite.time;
     }
 
     const diftToast = () => {
         toast.success("Thank you for visite my website",
-        {position:"top-center"});
+            { position: "top-center" });
     }
 
-    const breakTimeAdd = (min) =>{
+    const breakTimeAdd = (min) => {
         setBreakTime(min);
     }
 
     return (
         <div className='cart'>
-                <div className='image-section'>
-                <img className='image' src={image} alt=""/>
+            <div className='image-section'>
+                <img className='image' src={image} alt="" />
                 <div>
                     <h2>Nazmul Bhuyian</h2>
                     <address>Noakhali, Bangladesh</address>
                 </div>
-                </div>
+            </div>
             <div className='meserment'>
                 <div className='height'>
                     <h4>65 KG</h4>
@@ -57,10 +62,34 @@ const Calculation = (props) => {
             <h1>Exercise Details</h1>
             <h3 className='exercise-time'>Exercise time: {newminite} M</h3>
             <h3 className='exercise-time'>Break time: {breakTime} S</h3>
-            <button onClick={diftToast} className='complete'>Activity Complete <ToastContainer /></button>
+            <motion.button onClick={diftToast} className='complete'>Activity Complete <ToastContainer /></motion.button>
 
+            <div>
+                <motion.button
+                    initial={false}
+                    animate={[isHover ? "hover" : "rest"]}
+                    whileTap="press"
+                    variants={buttonVariants}
+                    onHoverStart={() => setIsHover(true)}
+                    onHoverEnd={() => setIsHover(false)}
+                    className="star"
+                >
+                    <motion.span>Star </motion.span>
+                </motion.button>
+            </div>
         </div>
+
     );
+
 };
+
+
+const buttonVariants = {
+    hover: {
+        scale: 1.5
+    }
+};
+
+
 
 export default Calculation;

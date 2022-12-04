@@ -50,6 +50,16 @@
     color: white;
 }
 
+.star{
+    font-size: 25px;
+    background-color: greenyellow;
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    margin-left: 100px;
+    color: white;
+}
+
 
 
 @media only screen and (max-width: 992px) {
